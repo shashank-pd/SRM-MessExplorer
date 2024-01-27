@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SRM's Mess Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+  <div class="display">
+    <div class="heading">MESS FOOD MENU</div>
+    <div class="time">
+      <div class="clock">
+          Current Time :
+          <span id="hours">13</span>
+          <span>:</span>
+          <span id="minute">00</span>
+          <span>:</span>
+          <span id="second">00</span>
+          <span id="session">AA</span>
+      </div>
+    </div>
+
+  <div class="container">
+    <h1>TIMINGS</h1>
+    <table class="timings">
+      <tr>
+        <td class="breakfast">
+          <i class="fa-solid fa-mug-saucer fa-fade fa-2xl" style="color: #ffffff;"></i>
+        </td>
+        <td class="breakfast-content">
+          <h3>Breakfast</h3>
+          Working day 7:00 AM - 9:00 AM, Holiday 7:30 AM - 9:00 AM
+        </td>
+      </tr>
+
+
+      <tr>
+        <td class="lunch">
+          <i class="fa-solid fa-utensils fa-fade fa-2xl" style="color: #ffffff;"></i>
+        </td>
+        <td class="lunch-content">
+          <h3>Lunch</h3>
+          Working day 11:30 AM - 1:30 PM, Holiday 12:00 PM - 1:30 PM
+        </td>
+      </tr>
+      
+
+      <tr>
+        <td class="snacks">
+          <i class="fa-solid fa-burger fa-fade fa-2xl" style="color: #ffffff;"></i>
+        </td>
+        <td class="snacks-content">
+          <h3>Snack</h3>
+          4:30 PM - 5:30 PM
+        </td>
+      </tr>
+
+      <tr>
+        <td class="dinner">
+          <i class="fa-solid fa-bowl-rice fa-fade fa-2xl" style="color: #ffffff;"></i>
+        </td>
+        <td class="dinner-content">
+          <h3>Dinner</h3>
+          7:30 PM - 9:00 PM
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <h3 id="day">Today</h3>
+    <div id="header"></div>
+    <div class="listwrap">
+      <ul id="foodlist" class="list-group"></ul>
+    </div>
+    <div class="buttons">
+      <button type="button" class="btn" id="previous">Prev</button>
+      <button type="button" class="btn" id="next">Next</button>
+    </div>
+  </div>
+  
+
+
+
+  <script src="script/script.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/c6fb6cedc5.js" crossorigin="anonymous"></script>
+</html>

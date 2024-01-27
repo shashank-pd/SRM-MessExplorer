@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+body{
+  background-color: #1a1a1a;
+  color: white;
+}
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.heading{
+  font-size: 60px;
+}
+
+.time{
+  margin-top: 20px;
+}
+.container{
+
+  background-color: #222222;
+  width: 650px;
+  margin:100px auto 0;
+  padding: 40px 35px;
+  color: hsl(0, 0%, 98%);
+  border: 3px solid hsl(0, 0%, 22%);
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+.timings{
+ margin-top: 30px;
+}
+
+.breakfast,.lunch,.snacks,.dinner {
+  text-align: center;
+  padding: 50px;
+}
+
+.breakfast-content h3,.lunch-content h3,.dinner-content h3,.snacks-content h3{
+  color: hsl(45, 100%, 72%);
+}
+
+.breakfast-content,.lunch-content,.dinner-content,.snacks-content {
+  padding-left: 90px;
+}
+
+#day {
+  text-decoration: none;
+  position: relative;
+  color: white; 
+   
+}
+
+/* #day::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px; 
+  background: linear-gradient(90deg, hsl(45, 100%, 72%), hsla(45, 100%, 72%, 0.297));
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#day:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+} */
+
+#day::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px; 
+  background: linear-gradient(90deg, hsl(45, 100%, 72%), hsla(45, 100%, 72%, 0.297));
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+
+
+
+
+#header{
+  margin-top: 20px;
+}
+
+.list-group-item{
+  color: hsl(45, 100%, 72%);
+  text-align:left;
+  display: block;
+}
+
+.listwrap {
+  margin-bottom: 40px;
+  text-align: left;
+  width: 40%;
+  margin-left: 40%;
+  margin-top: 40px;
+}
+
+#previous {
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#next {
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
