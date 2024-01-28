@@ -38,6 +38,7 @@ body{
 
 .timings{
  margin-top: 30px;
+ position: relative;
 }
 
 .breakfast,.lunch,.snacks,.dinner {
