@@ -93,11 +93,6 @@ body{
   
 }
 
-
-
-
-
-
 #header{
   margin-top: 20px;
 }
@@ -116,17 +111,22 @@ body{
   margin-top: 40px;
 }
 
-#previous {
-  display: inline-block;
-  margin: 10px;
-  font-weight: bold;
-  color: aliceblue;
+#next{
+  margin-left: 30px;
 }
 
-#next {
-  display: inline-block;
-  margin: 10px;
-  font-weight: bold;
-  color: aliceblue;
+.btn {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 1px solid #3498dbd6;
+  padding: 10px 20px;
+  cursor: pointer; 
 }
+
+#next:hover , #previous:hover {
+  color: #FFD43B;
+  border: 2px solid #3ab0ff;
+  transition: color 0.4s; 
+}
+
 
